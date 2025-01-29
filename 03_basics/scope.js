@@ -1,12 +1,34 @@
+// function one() {
+//     const username = "Nagaraj"
 
+//     function two() {
+//         const website = 'youtube'
+//         console.log(username);
+//         console.log(website);
+//     } 
+//     two()
+// }
+
+// one()
 
 if (true) {
-    let abc = 10;
-    const bcd = 20;
-    var cde = 30;
-}  
+    const username = 'hitesh'
+    if (username === 'hitesh') {
+        const website = ' Youtube'
+        //console.log(username + website)
+    }
+    //console.log(website);
+}
+//console.log(username)
+console.log(addOne(10));
+function addOne(num) {
+    return num + 1;
+}
 
-console.log(abc);
-console.log(bcd);
-console.log(cde);
 
+
+const addTwo = function(num) {
+    return num + 2
+}
+
+console.log(addTwo(5));
